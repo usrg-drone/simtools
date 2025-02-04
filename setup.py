@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'lidar_repub = simtools.lidar_repub:main'
+            'lidar_repub = simtools.lidar_repub:main',
+            'pose_relay = simtools.pose_relay:main',
         ],
     },
 )
