@@ -23,6 +23,7 @@ setup(
             'lidar_merge = simtools.lidar_merge:main',
             'lidar_repub = simtools.lidar_repub:main',
             'pose_relay = simtools.pose_relay:main',
+            'tf_from_odom = simtools.tf_from_odom:main',
         ],
     },
 )
